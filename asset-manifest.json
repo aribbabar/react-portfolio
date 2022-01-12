@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/aribbabar/react-portfolio/static/css/main.818bf987.css",
+    "main.js": "/aribbabar/react-portfolio/static/js/main.89d710c7.js",
+    "static/media/dbz.jpg": "/aribbabar/react-portfolio/static/media/dbz.38063a8016b8c8439001.jpg",
+    "static/media/avatar.svg": "/aribbabar/react-portfolio/static/media/avatar.de4e8013067dc3d2d7609a5edfdeda41.svg",
+    "index.html": "/aribbabar/react-portfolio/index.html",
+    "static/media/nav-btn.svg": "/aribbabar/react-portfolio/static/media/nav-btn.431ca345fb74a7c7bef4c1e4a06b9155.svg",
+    "static/media/x.svg": "/aribbabar/react-portfolio/static/media/x.2bc5cf14a705016e276230b7322a335b.svg",
+    "main.818bf987.css.map": "/aribbabar/react-portfolio/static/css/main.818bf987.css.map",
+    "main.89d710c7.js.map": "/aribbabar/react-portfolio/static/js/main.89d710c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.818bf987.css",
+    "static/js/main.89d710c7.js"
+  ]
+}
