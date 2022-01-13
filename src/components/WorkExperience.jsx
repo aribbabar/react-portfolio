@@ -21,7 +21,7 @@ const WorkExperience = () => {
         <ul>
           <li>Demonstrated exceeding customer service skills</li>
           <li>
-            Handled fast-paced microtransactions and preformed daily management
+            Handled fast-paced micro-transactions and preformed daily management
             duties
           </li>
         </ul>
@@ -31,7 +31,7 @@ const WorkExperience = () => {
         <h5>Aug 2017 - Aug 2018</h5>
         <ul>
           <li>
-            Designed & upddated a WordPress website as directed by supervisor
+            Designed & updated a WordPress website as directed by supervisor
           </li>
         </ul>
       </div>
