@@ -5,7 +5,9 @@ const Card = ({ img, link, title, desc }) => {
     <div
       className="card"
       onClick={() => {
-        window.open(link, "_blank");
+        if (link) {
+          window.open(link, "_blank");
+        }
       }}
     >
       <img src={img} alt="" />

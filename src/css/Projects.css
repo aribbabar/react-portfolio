@@ -7,3 +7,15 @@
   flex-direction: column;
   color: #fff;
 }
+
+#projects .cards-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  #projects .cards-container {
+    flex-direction: row;
+  }
+}

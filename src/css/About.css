@@ -25,6 +25,7 @@
   padding: 1rem;
   border-radius: 10px;
   margin: 0 1.5rem 1.5rem 1.5rem;
+  min-width: 50%;
 }
 
 #about .about-me-text {
@@ -34,6 +35,7 @@
 
 @media (min-width: 1024px) {
   #about .about-me-text-container {
-    width: 25%;
+    min-width: auto;
+    max-width: 30%;
   }
 }
