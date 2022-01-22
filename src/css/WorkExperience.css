@@ -17,6 +17,11 @@
   padding-bottom: 1rem;
 }
 
+#work-experience .experience-container ul {
+  list-style-position: outside;
+  margin-left: 1rem;
+}
+
 #work-experience .experience-container h3,
 #work-experience .experience-container h5 {
   font-weight: normal;
