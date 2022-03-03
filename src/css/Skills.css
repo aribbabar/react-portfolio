@@ -1,4 +1,4 @@
-#skills {
+#skills-section {
   background-color: var(--primary-color);
   width: 100%;
   display: flex;
@@ -8,17 +8,63 @@
   color: #fff;
 }
 
-#skills .skills-container {
-  width: 90%;
+#skills-section .skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
   margin-bottom: 2rem;
-  border: 1px solid;
-  padding: 1rem;
-  border-radius: 10px;
 }
 
-#skills .skills-container h2 {
+#skills-section .skill-container {
+  background-color: var(--tertiary-color);
+  color: #fff;
+  padding: 2rem;
   text-align: center;
-  border-bottom: 1px solid;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
+  border-radius: 10px;
+  min-width: 400px;
+}
+
+#skills-section .skills-container .skill-container .skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skill-background {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 100%;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.skill-background:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.grid-span-2 {
+  grid-column: span 2;
+}
+
+.line {
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  margin: 1rem auto 1rem auto;
+}
+
+@media screen and (max-width: 800px) {
+  #skills-section .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  #skills-section .skill-container {
+    min-width: 80%;
+  }
 }

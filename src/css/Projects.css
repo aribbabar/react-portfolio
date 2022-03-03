@@ -1,6 +1,7 @@
 #projects {
   background-color: var(--secondary-color);
   width: 100%;
+  padding-bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,13 +10,16 @@
 }
 
 #projects .cards-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-auto-rows: 1fr;
+  gap: 1rem;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 768px) {
   #projects .cards-container {
-    flex-direction: row;
+    grid-template-columns: 1fr;
   }
 }

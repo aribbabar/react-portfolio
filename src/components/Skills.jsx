@@ -1,31 +1,53 @@
 import "../css/Skills.css";
-import Skill from "./Skill";
 
 const Skills = () => {
   return (
-    <div id="skills">
+    <section id="skills-section">
       <div className="title-container">
         <h2>Skills</h2>
       </div>
       <div className="skills-container">
-        <h2>Hard Skills</h2>
-        <Skill skill={"JS"} length={"90%"} />
-        <Skill skill={"HTML & CSS"} length={"90%"} />
-        <Skill skill={"Java"} length={"80%"} />
-        <Skill skill={"C#"} length={"75%"} />
-        <Skill skill={"Ruby"} length={"60%"} />
-        <Skill skill={"OCaml"} length={"65%"} />
-        <Skill skill={"Basic Graphic Design"} length={"65%"} />
-        <Skill skill={"C"} length={"50%"} />
+        <div className="skill-container">
+          <h2>Front-End</h2>
+          <div className="line"></div>
+          <div className="skills">
+            <div className="skill-background">
+              <p>HTML</p>
+            </div>
+            <div className="skill-background">
+              <p>CSS</p>
+            </div>
+            <div className="skill-background">
+              <p>JS</p>
+            </div>
+            <div className="skill-background">
+              <p>React</p>
+            </div>
+          </div>
+        </div>
+        <div className="skill-container">
+          <h2>Back-End</h2>
+          <div className="line"></div>
+          <div className="skills">
+            <div className="skill-background">
+              <p>Java</p>
+            </div>
+            <div className="skill-background">
+              <p>C#</p>
+            </div>
+            <div className="skill-background">
+              <p>C</p>
+            </div>
+            <div className="skill-background">
+              <p>Ruby</p>
+            </div>
+            <div className="skill-background grid-span-2">
+              <p>OCaml</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="skills-container">
-        <h2>Soft Skills</h2>
-        <Skill skill={"Positivity"} length={"100%"} />
-        <Skill skill={"Adaptability"} length={"80%"} />
-        <Skill skill={"Teamwork"} length={"75%"} />
-        <Skill skill={"Communication"} length={"70%"} />
-      </div>
-    </div>
+    </section>
   );
 };
 

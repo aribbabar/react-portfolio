@@ -4,7 +4,8 @@
   border-radius: 10px;
   border: 1px;
   cursor: pointer;
-  margin: 0 1.5rem 2rem 1.5rem;
+  max-width: 400px;
+  height: 100%;
 }
 
 .card img {
@@ -31,9 +32,18 @@
   text-align: justify;
 }
 
+.one {
+  grid-column: span 2;
+}
+
+@media (max-width: 786px) {
+  .card {
+    width: 80%;
+  }
+}
+
 @media (min-width: 1024px) {
   .card {
-    width: 25%;
     transition: 0.5s;
   }
 

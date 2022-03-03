@@ -1,9 +1,15 @@
 import "../css/Card.css";
 
-const Card = ({ img, link, title, desc }) => {
+const Card = ({ img, link, title, desc, classes }) => {
+  let classNames = "";
+
+  if(classes != undefined) {
+    classNames = classes;
+  }
+
   return (
     <div
-      className="card"
+      className={"card" + classNames}
       onClick={() => {
         if (link) {
           window.open(link, "_blank");

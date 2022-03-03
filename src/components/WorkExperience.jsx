@@ -1,6 +1,31 @@
 import "../css/WorkExperience.css";
 
 const WorkExperience = () => {
+  const timeSince = (date) => {
+    let seconds = Math.floor((new Date() - date) / 1000);
+    let interval = seconds / 31536000;
+    let time = "";
+
+    if (interval > 1) {
+      time += Math.floor(interval) + " years";
+    }
+
+    interval = seconds / 2592000;
+
+    if (interval > 1) {
+      if (time === "") {
+        time += (Math.floor(interval) % 10) + " months";
+      } else {
+        time += " & " + (Math.floor(interval) % 10) + " months";
+      }
+    }
+
+    return time;
+  };
+
+  const detsTime = timeSince(new Date("2021/08/01"));
+  const shoeShowTime = timeSince(new Date("2019/01/01"));
+
   return (
     <div id="work-experience">
       <div className="title-container">
@@ -9,7 +34,7 @@ const WorkExperience = () => {
       <div className="experience-container">
         <h2>Technical Director</h2>
         <h3>Distance Education Tech & Services (DETS)</h3>
-        <h5>Aug 2021 - Present</h5>
+        <h5>Aug 2021 - Present ({detsTime})</h5>
         <ul>
           <li>Provided technical support to instructors</li>
           <li>Recorded classroom with basic staging techniques</li>
@@ -17,7 +42,7 @@ const WorkExperience = () => {
         <div className="line-break"></div>
         <h2>Key Holder (Assistant Manager)</h2>
         <h3>Shoe Show Mega</h3>
-        <h5>Jan 2019 - Present</h5>
+        <h5>Jan 2019 - Present ({shoeShowTime})</h5>
         <ul>
           <li>Demonstrated exceeding customer service skills</li>
           <li>
@@ -28,7 +53,7 @@ const WorkExperience = () => {
         <div className="line-break"></div>
         <h2>Web Intern</h2>
         <h3>Woodlawn Villager</h3>
-        <h5>Aug 2017 - Aug 2018</h5>
+        <h5>Aug 2017 - Aug 2018 (1 year)</h5>
         <ul>
           <li>
             Designed & updated a WordPress website as directed by supervisor
