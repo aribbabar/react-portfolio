@@ -40,7 +40,7 @@ const Home = () => {
         <a href="#projects" onClick={toggleNavClass}>
           Projects
         </a>
-        <a href="#skills" onClick={toggleNavClass}>
+        <a href="#skills-section" onClick={toggleNavClass}>
           Skills
         </a>
         <a href="#work-experience" onClick={toggleNavClass}>
