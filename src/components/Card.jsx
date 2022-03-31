@@ -1,9 +1,9 @@
 import "../css/Card.css";
 
-const Card = ({ img, link, title, desc, classes }) => {
+const Card = ({ img, link, title, desc, classes, technologies }) => {
   let classNames = "";
 
-  if(classes != undefined) {
+  if (classes != undefined) {
     classNames = classes;
   }
 
@@ -18,6 +18,11 @@ const Card = ({ img, link, title, desc, classes }) => {
     >
       <img src={img} alt="" />
       <div className="card-content-container">
+        <div className="technologies-container">
+          {technologies.map((tech) => (
+            <p>{tech}</p>
+          ))}
+        </div>
         <h2>{title}</h2>
         <p>{desc}</p>
       </div>

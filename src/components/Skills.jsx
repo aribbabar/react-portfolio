@@ -23,6 +23,9 @@ const Skills = () => {
             <div className="skill-background">
               <p>React</p>
             </div>
+            <div className="skill-background grid-span-2">
+              <p>Svelte</p>
+            </div>
           </div>
         </div>
         <div className="skill-container">
