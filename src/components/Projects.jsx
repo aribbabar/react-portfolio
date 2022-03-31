@@ -30,9 +30,7 @@ const Projects = () => {
         />
         <Card
           img={ticTacToe}
-          link={
-            "https://advanced-tic-d328t0pz3-aribbabar100-gmailcom.vercel.app/"
-          }
+          link={"https://advanced-tic-tac-toe.vercel.app/"}
           title={"Advanced Tic Tac Toe"}
           desc={
             "Alpha version of a not so advanced version of tic tac toe. Made with Svelte!"
