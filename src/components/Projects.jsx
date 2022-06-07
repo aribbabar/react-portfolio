@@ -30,12 +30,12 @@ const Projects = () => {
         />
         <Card
           img={ticTacToe}
-          link={"https://advanced-tic-tac-toe.vercel.app/"}
-          title={"Advanced Tic Tac Toe"}
+          link={"https://tic-tac-toe-77.herokuapp.com/"}
+          title={"Online Multiplayer Tic Tac Toe"}
           desc={
-            "Alpha version of a not so advanced version of tic tac toe. Made with Svelte!"
+            "An online multiplayer tic tac toe game made with react and socket.io"
           }
-          technologies={["HTML", "CSS", "JS", "Svelte"]}
+          technologies={["HTML", "CSS", "JS", "React", "Socket.io", "Express"]}
         />
       </div>
     </div>

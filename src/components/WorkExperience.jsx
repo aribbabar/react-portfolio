@@ -1,4 +1,5 @@
 import "../css/WorkExperience.css";
+import * as moment from "moment";
 
 const WorkExperience = () => {
   const timeSince = (date) => {
@@ -23,8 +24,8 @@ const WorkExperience = () => {
     return time;
   };
 
-  const detsTime = timeSince(new Date("2021/08/01"));
-  const shoeShowTime = timeSince(new Date("2019/01/01"));
+  const detsTime = moment([2021, 8, 1]).fromNow(true);
+  const shoeShowTime = moment([2019, 1, 1]).fromNow(true);
 
   return (
     <div id="work-experience">
