@@ -2,30 +2,29 @@ import "../css/WorkExperience.css";
 import * as moment from "moment";
 
 const WorkExperience = () => {
-  const timeSince = (date) => {
-    let seconds = Math.floor((new Date() - date) / 1000);
-    let interval = seconds / 31536000;
-    let time = "";
+  // const timeSince = (date) => {
+  //   let seconds = Math.floor((new Date() - date) / 1000);
+  //   let interval = seconds / 31536000;
+  //   let time = "";
 
-    if (interval > 1) {
-      time += Math.floor(interval) + " years";
-    }
+  //   if (interval > 1) {
+  //     time += Math.floor(interval) + " years";
+  //   }
 
-    interval = seconds / 2592000;
+  //   interval = seconds / 2592000;
 
-    if (interval > 1) {
-      if (time === "") {
-        time += (Math.floor(interval) % 10) + " months";
-      } else {
-        time += " & " + (Math.floor(interval) % 10) + " months";
-      }
-    }
+  //   if (interval > 1) {
+  //     if (time === "") {
+  //       time += (Math.floor(interval) % 10) + " months";
+  //     } else {
+  //       time += " & " + (Math.floor(interval) % 10) + " months";
+  //     }
+  //   }
 
-    return time;
-  };
+  //   return time;
+  // };
 
   const detsTime = moment([2021, 8, 1]).fromNow(true);
-  const shoeShowTime = moment([2019, 1, 1]).fromNow(true);
 
   return (
     <div id="work-experience">
@@ -43,7 +42,7 @@ const WorkExperience = () => {
         <div className="line-break"></div>
         <h2>Key Holder (Assistant Manager)</h2>
         <h3>Shoe Show Mega</h3>
-        <h5>Jan 2019 - Present ({shoeShowTime})</h5>
+        <h5>Jan 2019 - Present (3 Years & 7 Months)</h5>
         <ul>
           <li>Demonstrated exceeding customer service skills</li>
           <li>

@@ -30,7 +30,10 @@
 }
 
 @media (min-width: 768px) {
-  #footer .icons a:hover,
+  #footer .icons a:hover {
+    transform: scale(1.2);
+  }
+
   #footer .up:hover {
     transform: translateY(-5px);
   }

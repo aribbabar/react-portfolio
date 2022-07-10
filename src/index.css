@@ -49,4 +49,5 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--tertiary-color);
   padding: 1rem;
   border-radius: 10px;
+  cursor: default;
 }
