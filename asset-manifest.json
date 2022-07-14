@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5a3f38f6.css",
-    "main.js": "/react-portfolio/static/js/main.37891507.js",
+    "main.js": "/react-portfolio/static/js/main.0ccd2ffa.js",
     "static/media/dbz.jpg": "/react-portfolio/static/media/dbz.38063a8016b8c8439001.jpg",
     "static/media/umd.png": "/react-portfolio/static/media/umd.8f5ce74e6661b38e7900.png",
     "static/media/tic-tac-toe.jpg": "/react-portfolio/static/media/tic-tac-toe.7ec65d7652e0dc6fde46.jpg",
     "static/media/avatar.svg": "/react-portfolio/static/media/avatar.de4e8013067dc3d2d7609a5edfdeda41.svg",
     "index.html": "/react-portfolio/index.html",
-    "static/media/nav-btn.svg": "/react-portfolio/static/media/nav-btn.431ca345fb74a7c7bef4c1e4a06b9155.svg",
-    "static/media/x.svg": "/react-portfolio/static/media/x.2bc5cf14a705016e276230b7322a335b.svg",
+    "static/media/nav-btn.svg": "/react-portfolio/static/media/nav-btn.a57b4465f808a3cf23ea956a2e835c67.svg",
+    "static/media/x.svg": "/react-portfolio/static/media/x.b9313e02377f4282459d721655f1a111.svg",
     "main.5a3f38f6.css.map": "/react-portfolio/static/css/main.5a3f38f6.css.map",
-    "main.37891507.js.map": "/react-portfolio/static/js/main.37891507.js.map"
+    "main.0ccd2ffa.js.map": "/react-portfolio/static/js/main.0ccd2ffa.js.map"
   },
   "entrypoints": [
     "static/css/main.5a3f38f6.css",
-    "static/js/main.37891507.js"
+    "static/js/main.0ccd2ffa.js"
   ]
 }
